@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana, geneva, tahoma, sans-serife;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: rgb(58, 56, 56);
+}
+
+.center{
+    display: flex;
+    width: 1400px;
+    margin:  auto;
+    padding: 0;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+ img{
+    width: 70px;
+ }
+
+ header{
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(228, 222, 222);
+    box-shadow: 1px 0px 10px rgb(228, 222, 222);
+ }
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 17px;
+    font-size: 13px;
+    color: rgb(58, 56, 56);
+
+}
+
+ .menu{
+   /* margin: 35px 90px ;*/
+    margin: 0px auto;
+    margin-right: 50px;
+
+}
+
+.corpo{
+    width: 100%;
+    float: right;
+    margin-top: 30px;
+    height: 790px;
+
+}
+
+.conteudo{
+    width: 1100px;
+    height: 786px;
+    margin: 1px;
+    float: left;
+}
+
+.titulo{
+    width: 740px;
+    padding: 30px;
+    align-items: center;
+    font-size: 17px;
+    margin: 110px auto;
+}
+
+.title1{
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+.title2{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.star{
+    color: #075c38;
+    font-size: 55px;
+    text-shadow: 2px 2px 3px rgba(3, 66, 22, 0.5); 
+}
+
+.copo{
+    width: 570px;
+    margin: -80px 0px 0px 20px;
+}
+
+.circulo{
+    height: 1190px;
+    width: 1200px;
+    margin: 120px -490px 0 0;
+    background-color: #075c38;
+    border-radius: 80%;
+    float: right;
+    display: block;
+}
+
+.media{
+    width: 50px;
+    right: 500px;
+    top: 40px;
+    float: right;
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+.face{
+    width: 35px;
+    margin: 5px ;
+
+}
+.insta{
+    width: 41px;
+    margin: 10px 2px;
+
+}
+.twit{
+    width: 41px;
+    margin: 3px 3px;
+}
+
+button{
+    background-color: #02804b;
+    border-radius: 17px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    margin: 15px auto;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 12px rgba(7, 73, 27, 0.5); 
+
+}
+
+ a:hover{
+    color: #075c38;
+    text-shadow: 0px 0px 2px rgba(3, 66, 22, 0.5); 
+
+}
+
+button:hover{
+    background-color: #037444;
+    box-shadow: 5px 5px 2px rgba(3, 66, 22, 0.5); 
+    transition: 0.7s;
+}
